@@ -1,6 +1,6 @@
 require 'json'
 
-# Читаем содержимое файла colors.json
+# Читаем содержимое файла vizitka.json
 file = File.read("#{__dir__}/vizitka.json", encoding: 'UTF-8')
 
 # Делаем ассоциативный массив из содержимого файла с помощью метода JSON.parse
